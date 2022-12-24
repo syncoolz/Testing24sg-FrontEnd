@@ -1,0 +1,120 @@
+.article {
+    border-radius: 3px;
+}
+
+.tables {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100%;  
+    height: auto;     
+}
+
+.tables thead {  
+    font-size: 24px;
+    height: 4rem;  
+}
+
+.thead tr {    
+    border-top-left-radius: 10px;
+    background-color: rgb(4, 4, 77);
+}
+
+.thead td {
+    text-align: center !important;
+    vertical-align: middle !important; 
+    color: lightsteelblue !important;   
+}
+
+.tbody tr {
+    border-style:hidden !important;
+    background-color:rgb(52, 52, 119);  
+}
+
+.tbody td {
+    text-align: center !important;
+    color: lightsteelblue !important;
+    vertical-align: middle !important; 
+}
+
+.article {
+    background-color:rgb(52, 52, 119) !important;
+}
+
+.closepopup {
+    cursor: pointer;
+}
+
+.image{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 5px;
+    max-width: 100%;  
+    height: auto;  
+}
+
+.head {
+    color:aliceblue;
+    text-align: center;
+    background-color: rgb(4, 4, 77) !important;
+}
+
+.inputs {
+    max-width: 100%;  
+    height: auto;  
+}
+
+.st-success {
+    color:forestgreen;
+}
+
+.st-failed {
+    color:darkred;
+}
+
+.popup-content {
+    height: auto;
+    width: 50%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.685);
+    z-index: 9998!important;
+    top: 25%;
+    right: 25%;
+}
+
+.popup-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px 15px 15px;
+    border-bottom: 2px solid
+}
+
+.main-content {
+    position: relative;
+    width: auto;
+}
+
+.card-users {
+    height: auto;
+    width: 25%;
+    margin:2rem;
+}
+
+.userposts {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-grow: 3 auto;
+}
+
+.navigate {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.page-number {
+    border: 1px solid #ccc;
+    padding: 8px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
